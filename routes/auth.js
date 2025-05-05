@@ -18,4 +18,12 @@ router.post("/login", (req, res) => {
   res.json({ token });
 });
 
+router.post('/logout', (req, res) => {
+  // 1. Di production, kita bisa blacklist token di database
+  // 2. Di sini kita hanya memberi respons sukses
+  res.json({ 
+    message: "Logout berhasil! Silakan clear token di client." 
+  });
+});
+
 module.exports = router;

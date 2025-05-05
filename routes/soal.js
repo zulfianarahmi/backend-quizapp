@@ -1,6 +1,12 @@
 // routes/soal.js
 const express = require("express");
 const router = express.Router();
+const authMiddleware = require("../middleware/auth");
+
+// Hanya user dengan token valid yang bisa akses
+router.get("/:materi", authMiddleware, (req, res) => {
+  // Logika soal di sini...
+});
 
 // Dummy data soal
 const soal = {
