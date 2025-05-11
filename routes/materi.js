@@ -1,19 +1,29 @@
-// routes/materi.js
-const express = require("express");
+const express = require('express');
 const router = express.Router();
+const fs = require('fs');
+const path = require('path');
+const authMiddleware = require('../middleware/auth');
 
-// Dummy data materi
-const materi = [
-  { id: 1, nama: "Bahasa Indonesia" },
-  { id: 2, nama: "Matematika" },
-  { id: 3, nama: "IPA" },
-  { id: 4, nama: "IPS" },
-  { id: 5, nama: "Agama Islam" },
-];
+// Read materi data
+const materiPath = path.join(__dirname, '../data/materi.json');
+let materiData = {};
 
-// Endpoint untuk mendapatkan daftar materi
-router.get("/", (req, res) => {
-  res.json(materi);
+try {
+  const data = fs.readFileSync(materiPath, 'utf8');
+  materiData = JSON.parse(data);
+} catch (error) {
+  console.error('Error reading materi data:', error);
+}
+
+// Get learning materials by subject
+router.get('/:pelajaran', authMiddleware, (req, res) => {
+  const { pelajaran } = req.params;
+  
+  if (materiData[pelajaran]) {
+    res.json(materiData[pelajaran]);
+  } else {
+    res.status(404).json({ message: 'Subject not found' });
+  }
 });
 
 module.exports = router;

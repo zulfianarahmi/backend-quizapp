@@ -1,194 +1,24 @@
 {
-  "kelas_7": {
-    "Bahasa_Indonesia": {
-      "Jelajah_Nusantara": [
-        {
-          "id": 1,
-          "pertanyaan": "Di mana letak Gunung Bromo?",
-          "pilihan": ["Bali", "Jawa Timur", "Sumatera"],
-          "jawaban": "Jawa Timur"
-        },
-        {
-          "id": 2,
-          "pertanyaan": "Apa yang menjadi daya tarik utama di Gunung Bromo?",
-          "pilihan": ["Air terjun", "Matahari terbit", "Lautan pasir"],
-          "jawaban": "Matahari terbit"
-        },
-        {
-          "id": 3,
-          "pertanyaan": "Pantai Kuta terkenal karena apa?",
-          "pilihan": [
-            "Pasir putih dan ombak besar",
-            "Hutan tropis",
-            "Gunung berapi"
-          ],
-          "jawaban": "Pasir putih dan ombak besar"
-        },
-        {
-          "id": 4,
-          "pertanyaan": "Apa yang membuat Pantai Kuta cocok untuk peselancar?",
-          "pilihan": [
-            "Airnya yang sangat dingin",
-            "Ombaknya yang besar dan kuat",
-            "Banyaknya pohon kelapa"
-          ],
-          "jawaban": "Ombaknya yang besar dan kuat"
-        },
-        {
-          "id": 5,
-          "pertanyaan": "Taman Nasional Komodo terkenal sebagai habitat hewan apa?",
-          "pilihan": ["Harimau", "Komodo", "Gajah"],
-          "jawaban": "Komodo"
-        },
-        {
-          "id": 6,
-          "pertanyaan": "Selain komodo, hewan apa yang dapat ditemukan di Taman Nasional Komodo?",
-          "pilihan": ["Rusa", "Singa", "Panda"],
-          "jawaban": "Rusa"
-        },
-        {
-          "id": 7,
-          "pertanyaan": "Apa yang bisa dilakukan di sekitar pulau Komodo selain melihat komodo?",
-          "pilihan": ["Berburu", "Menyelam dan snorkeling", "Mandi air panas"],
-          "jawaban": "Menyelam dan snorkeling"
-        },
-        {
-          "id": 8,
-          "pertanyaan": "Apa yang membuat Taman Nasional Komodo terkenal di dunia?",
-          "pilihan": [
-            "Keanekaragaman hayati dan komodo yang hanya ada di sana",
-            "Air terjun yang tinggi",
-            "Hutan tropis yang lebat"
-          ],
-          "jawaban": "Keanekaragaman hayati dan komodo yang hanya ada di sana"
-        },
-        {
-          "id": 9,
-          "pertanyaan": "Apa yang bisa dilihat di Pantai Kuta saat matahari terbenam?",
-          "pilihan": [
-            "Langit oranye kemerahan",
-            "Gunung berapi yang aktif",
-            "Awan hitam gelap"
-          ],
-          "jawaban": "Langit oranye kemerahan"
-        },
-        {
-          "id": 10,
-          "pertanyaan": "Mengapa Gunung Bromo dianggap sebagai tempat yang misterius?",
-          "pilihan": [
-            "Karena sering terjadi hujan",
-            "Karena adanya kabut yang menutupi lautan pasir",
-            "Karena banyak binatang liar"
-          ],
-          "jawaban": "Karena adanya kabut yang menutupi lautan pasir"
-        }
-      ]
+  "aljabar": [
+    {
+      "id": 1,
+      "question": "Berapakah hasil dari 2x + 3x?",
+      "options": ["5x", "6x", "5", "6"],
+      "correct": "5x"
+    },
+    {
+      "id": 2,
+      "question": "Sederhanakan: 3(x + 2) - 2x",
+      "options": ["x + 6", "x - 6", "5x + 6", "5x - 6"],
+      "correct": "x + 6"
     }
-  },
-  "kelas_8": {
-    "Bahasa_Indonesia": {
-      "Teks_Prosedur": [
-        {
-          "id": 1,
-          "pertanyaan": "Apa yang dimaksud dengan teks prosedur?",
-          "pilihan": [
-            "Teks yang menceritakan kejadian atau cerita",
-            "Teks yang berisi langkah-langkah untuk mencapai tujuan tertentu",
-            "Teks yang memberikan informasi umum"
-          ],
-          "jawaban": "Teks yang berisi langkah-langkah untuk mencapai tujuan tertentu"
-        },
-        {
-          "id": 2,
-          "pertanyaan": "Ciri-ciri teks prosedur adalah…",
-          "pilihan": [
-            "Terdapat tujuan yang jelas, langkah-langkah yang urut, dan menggunakan bahasa deskriptif",
-            "Terdapat tujuan yang jelas, langkah-langkah yang urut, dan menggunakan kata-kata imperatif",
-            "Terdapat cerita, konflik, dan penyelesaian masalah"
-          ],
-          "jawaban": "Terdapat tujuan yang jelas, langkah-langkah yang urut, dan menggunakan kata-kata imperatif"
-        },
-        {
-          "id": 3,
-          "pertanyaan": "Manakah yang termasuk dalam struktur teks prosedur yang benar?",
-          "pilihan": [
-            "Tujuan, Langkah-langkah, Hasil",
-            "Tujuan, Bahan/Alat, Langkah-langkah",
-            "Tujuan, Alasan, Langkah-langkah"
-          ],
-          "jawaban": "Tujuan, Bahan/Alat, Langkah-langkah"
-        },
-        {
-          "id": 4,
-          "pertanyaan": "Apa yang dimaksud dengan \"bahasa imperatif\" dalam teks prosedur?",
-          "pilihan": [
-            "Kata yang digunakan untuk menjelaskan waktu",
-            "Kata yang digunakan untuk memberi perintah atau instruksi",
-            "Kata yang digunakan untuk menggambarkan suatu keadaan"
-          ],
-          "jawaban": "Kata yang digunakan untuk memberi perintah atau instruksi"
-        },
-        {
-          "id": 5,
-          "pertanyaan": "Bagian 'Langkah-langkah' dalam teks 'Cara Membuat Teh Manis Hangat' adalah...",
-          "pilihan": [
-            "Langkah 1, 2, 3",
-            "Langkah 2, 3, 4, 5",
-            "Langkah 1, 2, 3, 4, 5"
-          ],
-          "jawaban": "Langkah 1, 2, 3, 4, 5"
-        },
-        {
-          "id": 6,
-          "pertanyaan": "Manakah dari berikut ini yang termasuk contoh teks prosedur?",
-          "pilihan": [
-            "Cerita tentang liburan",
-            "Petunjuk penggunaan alat elektronik",
-            "Artikel tentang sejarah"
-          ],
-          "jawaban": "Petunjuk penggunaan alat elektronik"
-        },
-        {
-          "id": 7,
-          "pertanyaan": "Bagian 'Bahan atau Alat' yang benar dari teks prosedur jus jeruk adalah...",
-          "pilihan": [
-            "\"Potong jeruk menjadi dua bagian.\"",
-            "\"Bahan yang dibutuhkan: 2 buah jeruk, 1 sendok makan madu, dan 250 ml air.\"",
-            "\"Langkah-langkah: 1. Potong jeruk menjadi dua bagian...\""
-          ],
-          "jawaban": "\"Bahan yang dibutuhkan: 2 buah jeruk, 1 sendok makan madu, dan 250 ml air.\""
-        },
-        {
-          "id": 8,
-          "pertanyaan": "Manakah yang termasuk dalam ciri-ciri teks prosedur yang tidak benar?",
-          "pilihan": [
-            "Memiliki tujuan yang jelas",
-            "Langkah-langkah harus disusun secara acak",
-            "Instruksi yang mudah dipahami"
-          ],
-          "jawaban": "Langkah-langkah harus disusun secara acak"
-        },
-        {
-          "id": 9,
-          "pertanyaan": "Apa tujuan dari prosedur 'Cara Membuat Jus Jeruk Segar'?",
-          "pilihan": [
-            "Menghasilkan jus jeruk yang enak",
-            "Membuat jus jeruk segar",
-            "Menjual jus jeruk segar"
-          ],
-          "jawaban": "Membuat jus jeruk segar"
-        },
-        {
-          "id": 10,
-          "pertanyaan": "Teks prosedur yang baik harus memiliki langkah-langkah yang…",
-          "pilihan": [
-            "Dibuat dengan sesuka hati",
-            "Disusun secara acak",
-            "Urut dan logis"
-          ],
-          "jawaban": "Urut dan logis"
-        }
-      ]
+  ],
+  "geometri": [
+    {
+      "id": 1,
+      "question": "Berapakah luas persegi dengan sisi 5 cm?",
+      "options": ["20 cm²", "25 cm²", "30 cm²", "35 cm²"],
+      "correct": "25 cm²"
     }
-  }
+  ]
 }
