@@ -9,10 +9,24 @@
       "content": "Geometri adalah cabang matematika yang mempelajari bentuk, ukuran, dan posisi relatif dari gambar."
     }
   },
+<<<<<<< HEAD
   "fisika": {
     "mekanika": {
       "title": "Mekanika Klasik",
       "content": "Mekanika klasik adalah cabang fisika yang mempelajari gerak benda dan gaya yang mempengaruhinya."
+=======
+  "kelas_8": {
+    "Bahasa_Indonesia": {
+      "Teks Prosedur": "Teks prosedur adalah teks yang menjelaskan langkah-langkah melakukan sesuatu. Ciri-cirinya: tujuan jelas, langkah berurutan, menggunakan kata kerja imperatif. Struktur: Tujuan, Bahan/Alat, Langkah-langkah."
+    }
+  },
+  "kelas_9": {
+    "Bahasa_Indonesia": {
+      "Teks Eksposisi": "memberikan informasi atau penjelasan. Struktur: Tesis, Argumentasi, Penegasan ulang. Bahasa objektif dan logis.",
+      "Teks Laporan Percobaan": "Teks laporan percobaan menjelaskan hasil eksperimen. Struktur: Judul, Tujuan, Alat dan Bahan, Langkah-langkah, Hasil, Pembahasan, Kesimpulan.",
+      "Teks Anekdot": "Teks anekdot berisi cerita lucu atau menggelitik yang menyampaikan pesan moral. Struktur: Abstraksi, Orientasi, Krisis, Reaksi, Koda.",
+      "Teks Iklan": "Teks iklan bertujuan mempromosikan produk/jasa. Struktur: Judul, Gambar, Deskripsi produk, Ajakan. Bahasa persuasif."
+>>>>>>> ea8170272c87a45ec571bf8f479640948721cf6c
     }
   }
 }
