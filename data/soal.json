@@ -1,24 +1,314 @@
 {
-  "aljabar": [
+  "matematika": [
     {
-      "id": 1,
       "question": "Berapakah hasil dari 2x + 3x?",
       "options": ["5x", "6x", "5", "6"],
       "correct": "5x"
     },
     {
-      "id": 2,
       "question": "Sederhanakan: 3(x + 2) - 2x",
       "options": ["x + 6", "x - 6", "5x + 6", "5x - 6"],
       "correct": "x + 6"
+    },
+    {
+      "question": "Jika x = 3, berapakah nilai dari 4x + 5?",
+      "options": ["17", "15", "19", "13"],
+      "correct": "17"
+    },
+    {
+      "question": "Tentukan hasil dari 5 + 3 × 2 - 4",
+      "options": ["11", "10", "12", "9"],
+      "correct": "11"
+    },
+    {
+      "question": "Berapakah luas lingkaran dengan jari-jari 7 cm? (Gunakan π = 3.14)",
+      "options": ["153.86 cm²", "149.96 cm²", "154.56 cm²", "145.60 cm²"],
+      "correct": "153.86 cm²"
+    },
+    {
+      "question": "Sederhanakan: 2(x - 5) + 3x",
+      "options": ["5x - 10", "5x + 10", "5x - 5", "5x - 15"],
+      "correct": "5x - 10"
+    },
+    {
+      "question": "Tentukan hasil dari (x + 3)² jika x = 2",
+      "options": ["25", "16", "20", "18"],
+      "correct": "25"
+    },
+    {
+      "question": "Berapakah volume balok dengan panjang 5 cm, lebar 3 cm, dan tinggi 2 cm?",
+      "options": ["30 cm³", "32 cm³", "28 cm³", "35 cm³"],
+      "correct": "30 cm³"
+    },
+    {
+      "question": "Jika sebuah segitiga memiliki alas 8 cm dan tinggi 5 cm, berapakah luas segitiga tersebut?",
+      "options": ["20 cm²", "25 cm²", "30 cm²", "35 cm²"],
+      "correct": "20 cm²"
+    },
+    {
+      "question": "Tentukan hasil dari 6x - 2(x + 3)",
+      "options": ["4x - 6", "4x + 6", "5x - 6", "5x + 6"],
+      "correct": "4x - 6"
     }
   ],
-  "geometri": [
+  "english": [
     {
-      "id": 1,
-      "question": "Berapakah luas persegi dengan sisi 5 cm?",
-      "options": ["20 cm²", "25 cm²", "30 cm²", "35 cm²"],
-      "correct": "25 cm²"
+      "question": "What is the correct sentence?",
+      "options": ["She go to school every day.", "She goes to school every day.", "She going to school every day.", "She went to school every day."],
+      "correct": "She goes to school every day."
+    },
+    {
+      "question": "Choose the correct form of the verb: I _____ to the park yesterday.",
+      "options": ["go", "went", "going", "gone"],
+      "correct": "went"
+    },
+    {
+      "question": "What is the meaning of 'cat' in English?",
+      "options": ["Anjing", "Burung", "Kucing", "Ikan"],
+      "correct": "Kucing"
+    },
+    {
+      "question": "What is the plural form of 'child'?",
+      "options": ["Childs", "Children", "Childes", "Childrens"],
+      "correct": "Children"
+    },
+    {
+      "question": "Which sentence uses the past tense correctly?",
+      "options": ["I am go to school.", "I went to school yesterday.", "I go to school yesterday.", "I going to school yesterday."],
+      "correct": "I went to school yesterday."
+    },
+    {
+      "question": "Which of the following is a correct use of 'there'?",
+      "options": ["There is a book on the table.", "There are going to the park.", "There is go to school.", "There going to home."],
+      "correct": "There is a book on the table."
+    },
+    {
+      "question": "What does 'dog' mean in Bahasa Indonesia?",
+      "options": ["Anjing", "Kucing", "Burung", "Ikan"],
+      "correct": "Anjing"
+    },
+    {
+      "question": "Which one is a correct question form?",
+      "options": ["Where you are going?", "Where are you going?", "Where you going?", "Where go you?"],
+      "correct": "Where are you going?"
+    },
+    {
+      "question": "Choose the correct word: I ______ a book right now.",
+      "options": ["am reading", "is reading", "was reading", "were reading"],
+      "correct": "am reading"
+    },
+    {
+      "question": "What is the opposite of 'happy'?",
+      "options": ["Sad", "Angry", "Excited", "Joyful"],
+      "correct": "Sad"
+    }
+  ],
+  "agama": [
+    {
+      "question": "Berapa jumlah rukun Islam?",
+      "options": ["4", "5", "6", "7"],
+      "correct": "5"
+    },
+    {
+      "question": "Apa arti syahadat?",
+      "options": ["Mengucap dua kalimat yang menyatakan keimanan", "Ibadah wajib lima waktu", "Kewajiban memberi zakat", "Perjalanan ke Mekkah"],
+      "correct": "Mengucap dua kalimat yang menyatakan keimanan"
+    },
+    {
+      "question": "Apa nama kitab suci umat Islam?",
+      "options": ["Al-Qur'an", "Injil", "Taurat", "Veda"],
+      "correct": "Al-Qur'an"
+    },
+    {
+      "question": "Apakah yang dimaksud dengan puasa?",
+      "options": ["Makan sebelum fajar", "Menahan diri dari makan dan minum selama bulan Ramadan", "Berziarah ke Mekkah", "Shalat lima waktu"],
+      "correct": "Menahan diri dari makan dan minum selama bulan Ramadan"
+    },
+    {
+      "question": "Apa yang dimaksud dengan Haji?",
+      "options": ["Perjalanan ke Mekkah untuk ibadah", "Ibadah puasa bulan Ramadan", "Memberikan sebagian harta", "Mengucapkan dua kalimat syahadat"],
+      "correct": "Perjalanan ke Mekkah untuk ibadah"
+    },
+    {
+      "question": "Berapa jumlah rukun iman?",
+      "options": ["4", "5", "6", "7"],
+      "correct": "6"
+    },
+    {
+      "question": "Apa arti iman kepada malaikat?",
+      "options": ["Percaya adanya malaikat sebagai makhluk Allah", "Percaya bahwa manusia itu baik", "Percaya bahwa setiap orang akan mati", "Percaya akan adanya kehidupan setelah mati"],
+      "correct": "Percaya adanya malaikat sebagai makhluk Allah"
+    },
+    {
+      "question": "Siapa yang dikenal dengan akhlak terpuji?",
+      "options": ["Rasulullah SAW", "Abu Bakar", "Umar bin Khattab", "Ali bin Abi Talib"],
+      "correct": "Rasulullah SAW"
+    },
+    {
+      "question": "Apa itu zakat?",
+      "options": ["Memberikan sebagian harta untuk yang membutuhkan", "Mengerjakan shalat lima waktu", "Membaca Al-Qur'an", "Berpuasa di bulan Ramadan"],
+      "correct": "Memberikan sebagian harta untuk yang membutuhkan"
+    },
+    {
+      "question": "Apa arti iman kepada takdir?",
+      "options": ["Percaya bahwa segala sesuatu telah ditentukan oleh Allah", "Percaya bahwa malaikat itu ada", "Percaya bahwa semua orang akan hidup selamanya", "Percaya bahwa ada kehidupan setelah mati"],
+      "correct": "Percaya bahwa segala sesuatu telah ditentukan oleh Allah"
+    }
+  ],
+  "bahasa": [
+    {
+      "question": "Apa yang dimaksud dengan kata benda?",
+      "options": ["Kata yang menyatakan kegiatan", "Kata yang menyatakan sifat", "Kata yang menyatakan nama orang, tempat, atau benda", "Kata yang menyatakan waktu"],
+      "correct": "Kata yang menyatakan nama orang, tempat, atau benda"
+    },
+    {
+      "question": "Apa itu kalimat efektif?",
+      "options": ["Kalimat yang panjang dan rumit", "Kalimat yang jelas, singkat, dan tepat sasaran", "Kalimat yang banyak menggunakan kata sifat", "Kalimat yang tidak jelas"],
+      "correct": "Kalimat yang jelas, singkat, dan tepat sasaran"
+    },
+    {
+      "question": "Apa yang dimaksud dengan teks narasi?",
+      "options": ["Teks yang menceritakan suatu kejadian atau peristiwa", "Teks yang menjelaskan suatu hal secara rinci", "Teks yang menyampaikan informasi tentang sesuatu", "Teks yang membandingkan dua hal"],
+      "correct": "Teks yang menceritakan suatu kejadian atau peristiwa"
+    },
+    {
+      "question": "Apa itu kata sifat?",
+      "options": ["Kata yang menyatakan tindakan", "Kata yang menyatakan nama benda", "Kata yang menyatakan ciri atau sifat sesuatu", "Kata yang menyatakan waktu"],
+      "correct": "Kata yang menyatakan ciri atau sifat sesuatu"
+    },
+    {
+      "question": "Apa tujuan dari menulis teks deskripsi?",
+      "options": ["Untuk menggambarkan suatu benda atau tempat dengan jelas", "Untuk membandingkan dua hal", "Untuk menceritakan sebuah kejadian", "Untuk meyakinkan pembaca"],
+      "correct": "Untuk menggambarkan suatu benda atau tempat dengan jelas"
+    },
+    {
+      "question": "Apa jenis kalimat berikut: 'Dia sangat pintar dan rajin.'",
+      "options": ["Kalimat deklaratif", "Kalimat tanya", "Kalimat perintah", "Kalimat seru"],
+      "correct": "Kalimat deklaratif"
+    },
+    {
+      "question": "Apa tujuan dari menulis teks argumentasi?",
+      "options": ["Untuk menjelaskan suatu hal", "Untuk membuktikan atau meyakinkan pembaca", "Untuk menceritakan pengalaman", "Untuk memberikan informasi"],
+      "correct": "Untuk membuktikan atau meyakinkan pembaca"
+    },
+    {
+      "question": "Apa yang dimaksud dengan kalimat tanya?",
+      "options": ["Kalimat yang mengungkapkan suatu pernyataan", "Kalimat yang digunakan untuk bertanya", "Kalimat yang memberikan perintah", "Kalimat yang menyatakan perasaan"],
+      "correct": "Kalimat yang digunakan untuk bertanya"
+    },
+    {
+      "question": "Apa yang dimaksud dengan teks eksposisi?",
+      "options": ["Teks yang menceritakan suatu kejadian", "Teks yang menjelaskan suatu hal secara rinci", "Teks yang membandingkan dua hal", "Teks yang menyampaikan informasi berdasarkan fakta"],
+      "correct": "Teks yang menyampaikan informasi berdasarkan fakta"
+    },
+    {
+      "question": "Apa itu kata keterangan?",
+      "options": ["Kata yang menyatakan tempat atau waktu", "Kata yang menyatakan perasaan", "Kata yang menyatakan tindakan", "Kata yang menyatakan sifat"],
+      "correct": "Kata yang menyatakan tempat atau waktu"
+    }
+  ],
+  "ipa": [
+    {
+      "question": "Apa yang dimaksud dengan sistem pernapasan manusia?",
+      "options": ["Proses pencernaan makanan", "Proses pengambilan oksigen dan pengeluaran karbon dioksida", "Proses pengolahan makanan di lambung", "Proses peredaran darah"],
+      "correct": "Proses pengambilan oksigen dan pengeluaran karbon dioksida"
+    },
+    {
+      "question": "Apa yang dimaksud dengan daur air?",
+      "options": ["Proses tumbuhnya tanaman", "Proses air yang mengalir dari sungai ke laut", "Proses perubahan bentuk air dari cair, gas, dan padat", "Proses perputaran air antara atmosfer, bumi, dan laut"],
+      "correct": "Proses perputaran air antara atmosfer, bumi, dan laut"
+    },
+    {
+      "question": "Manakah yang merupakan sumber daya alam yang dapat diperbarui?",
+      "options": ["Batu bara", "Minyak bumi", "Air", "Emas"],
+      "correct": "Air"
+    },
+    {
+      "question": "Apa yang dimaksud dengan gaya?",
+      "options": ["Perubahan suhu", "Perubahan bentuk benda", "Tarikan atau dorongan yang dapat menyebabkan benda bergerak", "Perubahan massa benda"],
+      "correct": "Tarikan atau dorongan yang dapat menyebabkan benda bergerak"
+    },
+    {
+      "question": "Apa yang dimaksud dengan gaya gravitasi?",
+      "options": ["Gaya yang menyebabkan benda bergerak", "Gaya yang menahan benda tetap di tempat", "Gaya tarik bumi yang menyebabkan benda jatuh", "Gaya yang disebabkan oleh pergerakan udara"],
+      "correct": "Gaya tarik bumi yang menyebabkan benda jatuh"
+    },
+    {
+      "question": "Apa yang dimaksud dengan ekosistem?",
+      "options": ["Sekumpulan organisme yang saling berinteraksi dengan lingkungan fisiknya", "Proses fotosintesis yang dilakukan oleh tanaman", "Proses pernapasan yang terjadi pada manusia", "Bentuk kehidupan di laut"],
+      "correct": "Sekumpulan organisme yang saling berinteraksi dengan lingkungan fisiknya"
+    },
+    {
+      "question": "Apa yang dimaksud dengan fotosintesis?",
+      "options": ["Proses pembuatan makanan pada hewan", "Proses pembuatan makanan oleh tumbuhan menggunakan energi matahari", "Proses pembakaran makanan oleh tumbuhan", "Proses pengambilan oksigen oleh tumbuhan"],
+      "correct": "Proses pembuatan makanan oleh tumbuhan menggunakan energi matahari"
+    },
+    {
+      "question": "Apa yang terjadi pada air saat mengalami kondensasi?",
+      "options": ["Air berubah menjadi uap", "Air berubah menjadi es", "Air berubah menjadi cair", "Air berubah menjadi awan"],
+      "correct": "Air berubah menjadi cair"
+    },
+    {
+      "question": "Apa yang dimaksud dengan energi kinetik?",
+      "options": ["Energi yang tersimpan pada benda", "Energi yang bergerak pada benda", "Energi yang digunakan untuk panas", "Energi yang digunakan untuk cahaya"],
+      "correct": "Energi yang bergerak pada benda"
+    },
+    {
+      "question": "Apa yang dimaksud dengan peran sistem peredaran darah?",
+      "options": ["Menghasilkan energi", "Mengangkut oksigen dan nutrisi ke seluruh tubuh", "Menyimpan cadangan energi", "Menghancurkan bakteri dalam tubuh"],
+      "correct": "Mengangkut oksigen dan nutrisi ke seluruh tubuh"
+    }
+  ],
+  "ips": [
+    {
+      "question": "Apa yang dimaksud dengan ekonomi?",
+      "options": ["Ilmu tentang benda dan harta", "Ilmu tentang produksi, distribusi, dan konsumsi barang", "Ilmu tentang pemerintahan", "Ilmu tentang perkembangan teknologi"],
+      "correct": "Ilmu tentang produksi, distribusi, dan konsumsi barang"
+    },
+    {
+      "question": "Apa yang dimaksud dengan sumber daya alam yang tidak dapat diperbarui?",
+      "options": ["Air, angin, dan tumbuhan", "Batu bara, minyak bumi, dan gas alam", "Hutan, lautan, dan tanah", "Tanah dan air"],
+      "correct": "Batu bara, minyak bumi, dan gas alam"
+    },
+    {
+      "question": "Apa yang dimaksud dengan interaksi sosial?",
+      "options": ["Proses belajar bersama", "Proses hubungan antara individu atau kelompok dalam masyarakat", "Proses berbicara dengan orang lain", "Proses memahami lingkungan"],
+      "correct": "Proses hubungan antara individu atau kelompok dalam masyarakat"
+    },
+    {
+      "question": "Apa yang dimaksud dengan produksi dalam ekonomi?",
+      "options": ["Menggunakan barang", "Membuat barang dan jasa", "Mendistribusikan barang", "Menjual barang"],
+      "correct": "Membuat barang dan jasa"
+    },
+    {
+      "question": "Apa tujuan dari distribusi dalam ekonomi?",
+      "options": ["Menjual barang ke pasar", "Mendistribusikan barang dari produsen ke konsumen", "Menggunakan barang", "Menyimpan barang"],
+      "correct": "Mendistribusikan barang dari produsen ke konsumen"
+    },
+    {
+      "question": "Apa yang dimaksud dengan norma sosial?",
+      "options": ["Aturan yang tidak tertulis dalam masyarakat", "Aturan hukum yang berlaku di negara", "Proses pemerintahan dalam masyarakat", "Aturan yang dibuat oleh individu"],
+      "correct": "Aturan yang tidak tertulis dalam masyarakat"
+    },
+    {
+      "question": "Apa yang dimaksud dengan konsumsi dalam ekonomi?",
+      "options": ["Menggunakan barang dan jasa", "Membuat barang dan jasa", "Menjual barang", "Mendistribusikan barang"],
+      "correct": "Menggunakan barang dan jasa"
+    },
+    {
+      "question": "Apa yang dimaksud dengan globalisasi?",
+      "options": ["Proses perkembangan teknologi dalam negara", "Proses integrasi ekonomi dan budaya dunia", "Proses pemerintahan yang efektif", "Proses pemisahan negara-negara"],
+      "correct": "Proses integrasi ekonomi dan budaya dunia"
+    },
+    {
+      "question": "Apa yang dimaksud dengan pendapatan per kapita?",
+      "options": ["Jumlah total pendapatan suatu negara", "Pendapatan yang diterima oleh seorang individu dalam satu tahun", "Jumlah barang dan jasa yang dihasilkan negara", "Pendapatan yang diterima oleh seluruh masyarakat"],
+      "correct": "Pendapatan yang diterima oleh seorang individu dalam satu tahun"
+    },
+    {
+      "question": "Apa peran penting keluarga dalam interaksi sosial?",
+      "options": ["Mengatur peraturan negara", "Menyampaikan informasi kepada masyarakat", "Membentuk perilaku dan nilai yang diterima masyarakat", "Menentukan kebijakan pemerintah"],
+      "correct": "Membentuk perilaku dan nilai yang diterima masyarakat"
     }
   ]
 }

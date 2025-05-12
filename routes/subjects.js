@@ -56,12 +56,19 @@ router.get('/:id', authMiddleware, (req, res) => {
 
 // Get material for a subject
 router.get('/:id/material', authMiddleware, async (req, res) => {
+    const subjectId = parseInt(req.params.id);
+    const subject = subjects.find(s => s.id === subjectId);
+    if (!subject) {
+        return res.status(404).json({ message: 'Subject not found' });
+    }
+    const key = subject.key;
+    const materiPath = path.join(__dirname, '../data/materi.json');
     try {
-        const material = await Material.findOne({ subjectId: req.params.id });
-        if (!material) {
+        const materiData = JSON.parse(fs.readFileSync(materiPath, 'utf8'));
+        if (!materiData[key]) {
             return res.status(404).json({ message: 'Materi tidak ditemukan' });
         }
-        res.json(material);
+        res.json(materiData[key]);
     } catch (error) {
         res.status(500).json({ message: 'Server error' });
     }
@@ -69,12 +76,19 @@ router.get('/:id/material', authMiddleware, async (req, res) => {
 
 // Get quiz for a subject
 router.get('/:id/quiz', authMiddleware, async (req, res) => {
+    const subjectId = parseInt(req.params.id);
+    const subject = subjects.find(s => s.id === subjectId);
+    if (!subject) {
+        return res.status(404).json({ message: 'Subject not found' });
+    }
+    const key = subject.key;
+    const soalPath = path.join(__dirname, '../data/soal.json');
     try {
-        const quiz = await Quiz.findOne({ subjectId: req.params.id });
-        if (!quiz) {
+        const soalData = JSON.parse(fs.readFileSync(soalPath, 'utf8'));
+        if (!soalData[key]) {
             return res.status(404).json({ message: 'Quiz tidak ditemukan' });
         }
-        res.json(quiz);
+        res.json(soalData[key]);
     } catch (error) {
         res.status(500).json({ message: 'Server error' });
     }

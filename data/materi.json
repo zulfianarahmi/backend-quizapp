@@ -1,32 +1,106 @@
 {
-  "matematika": {
-    "aljabar": {
-      "title": "Aljabar Dasar",
-      "content": "Aljabar adalah cabang matematika yang mempelajari struktur aljabar seperti grup, ring, dan field."
+  "matematika": [
+    {
+      "title": "Materi 1: Bilangan Bulat dan Operasinya",
+      "content": "Bilangan bulat adalah bilangan yang terdiri dari bilangan positif, nol, dan bilangan negatif. Operasi bilangan bulat meliputi penjumlahan, pengurangan, perkalian, dan pembagian. Dalam kehidupan sehari-hari, bilangan bulat digunakan untuk menunjukkan suhu, ketinggian, dan perubahan keuangan. Misalnya, suhu -5°C menunjukkan cuaca dingin di bawah nol. Penting bagi siswa memahami bilangan bulat agar dapat menyelesaikan berbagai persoalan matematika dasar dengan tepat. Soal-soal latihan akan sangat membantu untuk memperkuat konsep ini."
     },
-    "geometri": {
-      "title": "Geometri Dasar",
-      "content": "Geometri adalah cabang matematika yang mempelajari bentuk, ukuran, dan posisi relatif dari gambar."
+    {
+      "title": "Materi 2: Pecahan dan Desimal",
+      "content": "Pecahan adalah bilangan yang menyatakan bagian dari keseluruhan, contohnya 1/2 atau 3/4. Desimal adalah bentuk lain dari pecahan, seperti 0.5 atau 0.75. Mengubah pecahan ke desimal dan sebaliknya sangat penting untuk memahami nilai dalam konteks berbeda. Pecahan digunakan dalam kehidupan sehari-hari seperti saat memasak, mengukur bahan, atau menghitung diskon. Dengan memahami materi ini, siswa akan lebih mudah menyelesaikan soal-soal yang melibatkan pembagian tidak sempurna atau nilai pecahan. Materi ini juga dasar untuk topik matematika lebih lanjut."
+    },
+    {
+      "title": "Materi 3: Perbandingan dan Skala",
+      "content": "Perbandingan adalah membandingkan dua nilai atau besaran dengan satuan yang sama, misalnya 2:3. Skala digunakan dalam peta atau denah untuk menunjukkan ukuran sesungguhnya dari gambar yang diperkecil. Pemahaman konsep perbandingan sangat berguna dalam kehidupan sehari-hari, seperti menghitung perbandingan campuran bahan, rasio keuangan, atau skala peta. Skala berguna untuk membaca peta dan membuat model bangunan atau denah rumah. Latihan membuat dan membaca skala akan membantu menguasai materi ini."
+    },
+    {
+      "title": "Materi 4: Persamaan dan Pertidaksamaan Linear",
+      "content": "Persamaan linear adalah persamaan yang memiliki bentuk ax + b = 0, di mana x adalah variabel, dan a serta b adalah konstanta. Pertidaksamaan linear adalah ketidaksamaan yang menyatakan hubungan lebih besar atau lebih kecil dari suatu nilai, seperti ax + b > 0. Pemahaman materi ini penting untuk memecahkan masalah yang melibatkan hubungan antara variabel. Dalam kehidupan sehari-hari, persamaan dan pertidaksamaan digunakan untuk menghitung keuntungan, biaya, atau bahkan untuk memecahkan masalah optimasi dalam ekonomi."
     }
-  },
-<<<<<<< HEAD
-  "fisika": {
-    "mekanika": {
-      "title": "Mekanika Klasik",
-      "content": "Mekanika klasik adalah cabang fisika yang mempelajari gerak benda dan gaya yang mempengaruhinya."
-=======
-  "kelas_8": {
-    "Bahasa_Indonesia": {
-      "Teks Prosedur": "Teks prosedur adalah teks yang menjelaskan langkah-langkah melakukan sesuatu. Ciri-cirinya: tujuan jelas, langkah berurutan, menggunakan kata kerja imperatif. Struktur: Tujuan, Bahan/Alat, Langkah-langkah."
+  ],
+  "english": [
+    {
+      "title": "Materi 1: Simple Present Tense",
+      "content": "Simple Present digunakan untuk menyatakan kebiasaan atau fakta umum. Contohnya: 'She goes to school every day' atau 'The sun rises in the east'. Tenses ini digunakan dalam percakapan sehari-hari dan teks naratif sederhana. Kata kerja bentuk pertama (V1) digunakan, dan biasanya disertai kata keterangan waktu seperti every day, always, atau never. Menguasai tense ini penting agar siswa dapat menyusun kalimat dasar dengan benar dalam bahasa Inggris."
+    },
+    {
+      "title": "Materi 2: Vocabulary - Animals",
+      "content": "Cat = Kucing, Dog = Anjing, Bird = Burung. Memahami kosa kata tentang hewan membantu siswa dalam membaca teks, mendeskripsikan makhluk hidup, dan memperkaya perbendaharaan kata. Siswa juga bisa menyebutkan habitat, suara, dan ciri fisik dari hewan-hewan tersebut, seperti 'The dog barks' atau 'A bird has wings'. Latihan bisa dilakukan dengan mencocokkan gambar hewan dengan nama atau mendeskripsikan hewan peliharaan."
+    },
+    {
+      "title": "Materi 3: Past Tense",
+      "content": "Past Tense digunakan untuk menyatakan kejadian yang sudah terjadi di masa lalu. Contohnya: 'She went to the park yesterday' atau 'I played soccer last Sunday'. Tenses ini sering digunakan dalam bercerita tentang pengalaman atau kejadian masa lalu. Dengan menggunakan past tense, kita bisa membuat kalimat yang menceritakan peristiwa yang sudah selesai, memberikan informasi tentang kejadian yang lampau."
     }
-  },
-  "kelas_9": {
-    "Bahasa_Indonesia": {
-      "Teks Eksposisi": "memberikan informasi atau penjelasan. Struktur: Tesis, Argumentasi, Penegasan ulang. Bahasa objektif dan logis.",
-      "Teks Laporan Percobaan": "Teks laporan percobaan menjelaskan hasil eksperimen. Struktur: Judul, Tujuan, Alat dan Bahan, Langkah-langkah, Hasil, Pembahasan, Kesimpulan.",
-      "Teks Anekdot": "Teks anekdot berisi cerita lucu atau menggelitik yang menyampaikan pesan moral. Struktur: Abstraksi, Orientasi, Krisis, Reaksi, Koda.",
-      "Teks Iklan": "Teks iklan bertujuan mempromosikan produk/jasa. Struktur: Judul, Gambar, Deskripsi produk, Ajakan. Bahasa persuasif."
->>>>>>> ea8170272c87a45ec571bf8f479640948721cf6c
+  ],
+  "agama": [
+    {
+      "title": "Materi 1: Rukun Islam",
+      "content": "Rukun Islam ada 5: Syahadat, Shalat, Zakat, Puasa, Haji. Syahadat adalah mengucap dua kalimat yang menyatakan keimanan. Shalat adalah ibadah wajib lima waktu. Zakat adalah kewajiban memberikan sebagian harta. Puasa dikerjakan di bulan Ramadan. Haji adalah ibadah ke Mekkah bagi yang mampu. Pemahaman Rukun Islam penting agar setiap Muslim dapat menjalankan agamanya dengan baik sejak dini."
+    },
+    {
+      "title": "Materi 2: Rukun Iman",
+      "content": "Rukun Iman ada 6: Iman kepada Allah, malaikat, kitab, rasul, hari kiamat, dan takdir. Setiap rukun menjelaskan hal-hal dasar yang wajib diyakini oleh seorang Muslim. Misalnya, iman kepada malaikat berarti percaya bahwa malaikat adalah makhluk Allah yang taat. Iman kepada kitab berarti meyakini kebenaran kitab-kitab Allah, termasuk Al-Qur'an. Rukun iman merupakan landasan spiritual dalam beragama."
+    },
+    {
+      "title": "Materi 3: Akhlak Terpuji",
+      "content": "Contoh akhlak terpuji: jujur, amanah, sabar, tawakal, dan menghormati orang tua. Akhlak terpuji adalah perilaku yang mencerminkan nilai-nilai kebaikan dalam Islam. Rasulullah SAW dikenal memiliki akhlak yang mulia. Dalam kehidupan sehari-hari, akhlak terpuji membentuk karakter positif dan membantu membina hubungan sosial yang baik. Siswa diajarkan untuk meneladani akhlak Rasul sejak dini."
+    },
+    {
+      "title": "Materi 4: Doa-doa Harian",
+      "content": "Doa-doa harian adalah doa yang dibaca umat Islam setiap hari dalam berbagai kesempatan, seperti doa sebelum tidur, doa bangun tidur, doa makan, dan doa masuk dan keluar rumah. Membaca doa-doa ini membantu membangun kedekatan dengan Allah dan mengingatkan kita untuk selalu bersyukur serta menjaga perilaku yang baik dalam keseharian."
     }
-  }
+  ],
+  "bahasa": [
+    {
+      "title": "Materi 1: Jenis-jenis Kata",
+      "content": "Jenis-jenis kata dalam Bahasa Indonesia meliputi kata benda (nomina), kata kerja (verba), kata sifat (adjektiva), dan kata keterangan (adverbia). Contoh kata benda: meja, buku. Kata kerja: makan, tidur. Kata sifat: besar, cantik. Kata keterangan: dengan cepat, sangat baik. Pemahaman ini membantu dalam menyusun kalimat yang benar dan sesuai struktur bahasa Indonesia."
+    },
+    {
+      "title": "Materi 2: Teks Narasi",
+      "content": "Teks narasi adalah teks yang menceritakan suatu kejadian atau peristiwa secara runtut. Tujuannya menghibur atau menyampaikan pesan moral. Struktur teks narasi meliputi orientasi, komplikasi, resolusi, dan koda. Contohnya bisa ditemukan dalam cerita rakyat, dongeng, atau pengalaman pribadi. Teks ini melatih siswa dalam mengekspresikan ide secara urut dan logis."
+    },
+    {
+      "title": "Materi 3: Kalimat Efektif",
+      "content": "Kalimat efektif adalah kalimat yang jelas, logis, dan tepat sasaran sesuai kaidah bahasa. Ciri-ciri kalimat efektif antara lain hemat kata, tidak ambigu, dan memiliki struktur subjek-predikat-objek yang lengkap. Contohnya: 'Siswa membaca buku' lebih efektif daripada 'Yang membaca buku adalah siswa'. Pemahaman ini penting untuk menulis dengan baik."
+    },
+    {
+      "title": "Materi 4: Paragraf yang Baik",
+      "content": "Paragraf yang baik harus memiliki satu ide pokok yang jelas dan pengembangan yang logis. Paragraf terdiri dari kalimat utama dan kalimat penjelas yang mendukung ide pokok tersebut. Memahami struktur paragraf penting untuk menulis teks dengan baik, baik itu teks narasi, deskripsi, maupun argumentasi. Menyusun paragraf yang baik akan mempermudah pembaca dalam memahami isi tulisan."
+    }
+  ],
+  "ipa": [
+    {
+      "title": "Materi 1: Sistem Pernapasan",
+      "content": "Manusia bernapas menggunakan paru-paru. Udara masuk melalui hidung, melewati trakea, lalu ke bronkus dan alveolus di paru-paru. Proses ini disebut respirasi. Oksigen diambil dari udara dan karbon dioksida dibuang. Sistem ini penting untuk kelangsungan hidup karena menyediakan oksigen bagi sel-sel tubuh. Menjaga kesehatan paru-paru dengan tidak merokok dan berolahraga sangat dianjurkan."
+    },
+    {
+      "title": "Materi 2: Daur Air",
+      "content": "Daur air meliputi evaporasi (penguapan), kondensasi (pengembunan), presipitasi (hujan), dan infiltrasi (peresapan ke tanah). Proses ini menjaga ketersediaan air di bumi. Air dari laut menguap, membentuk awan, kemudian turun sebagai hujan, dan sebagian masuk ke tanah sebagai air tanah. Pemahaman ini penting agar kita bisa menjaga kelestarian sumber daya air."
+    },
+    {
+      "title": "Materi 3: Gaya dan Gerak",
+      "content": "Gaya adalah tarikan atau dorongan yang dapat menyebabkan benda bergerak, berhenti, atau berubah bentuk. Contohnya adalah gaya gravitasi yang membuat benda jatuh ke bumi, dan gaya gesek yang menghambat gerak. Gaya dapat berubah arah gerak benda. Konsep ini penting dalam memahami prinsip kerja alat dan kendaraan di kehidupan sehari-hari."
+    },
+    {
+      "title": "Materi 4: Pencemaran Lingkungan",
+      "content": "Pencemaran lingkungan terjadi ketika polutan masuk dan merusak kualitas udara, air, atau tanah. Contoh pencemaran udara adalah asap kendaraan bermotor dan pabrik. Pencemaran air bisa disebabkan oleh limbah rumah tangga dan industri. Pemahaman tentang pencemaran penting untuk mengurangi dampak negatif terhadap kesehatan manusia dan ekosistem."
+    }
+  ],
+  "ips": [
+    {
+      "title": "Materi 1: Ekonomi",
+      "content": "Ekonomi adalah ilmu yang mempelajari produksi, distribusi, dan konsumsi barang dan jasa. Produksi adalah kegiatan membuat barang, distribusi adalah penyaluran barang, dan konsumsi adalah penggunaan barang. Ilmu ekonomi membantu kita memahami bagaimana masyarakat memenuhi kebutuhan dari sumber daya yang terbatas. Contohnya, memilih antara menabung atau membeli barang."
+    },
+    {
+      "title": "Materi 2: Sumber Daya Alam",
+      "content": "Sumber daya alam adalah segala sesuatu yang berasal dari alam dan dapat dimanfaatkan manusia. SDA terbagi dua: dapat diperbarui (air, tumbuhan, hewan) dan tidak dapat diperbarui (minyak bumi, batu bara). Pemanfaatan SDA harus bijak agar tidak cepat habis. Pelestarian dilakukan dengan menanam kembali pohon dan hemat energi."
+    },
+    {
+      "title": "Materi 3: Interaksi Sosial",
+      "content": "Interaksi sosial adalah hubungan timbal balik antara individu atau kelompok dalam masyarakat. Interaksi ini bisa berupa komunikasi, kerja sama, atau konflik. Tujuan dari interaksi adalah menjaga keharmonisan dalam kehidupan bermasyarakat. Nilai dan norma sosial membentuk perilaku yang diterima dalam masyarakat. Pendidikan dan keluarga memainkan peran penting dalam membentuk interaksi yang positif."
+    },
+    {
+      "title": "Materi 4: Sejarah Indonesia",
+      "content": "Sejarah Indonesia mencakup peristiwa-peristiwa penting yang terjadi di Indonesia dari masa kerajaan hingga kemerdekaan. Pembelajaran sejarah Indonesia memberikan pemahaman tentang perkembangan negara dan bangsa, serta pelajaran berharga tentang perjuangan bangsa untuk meraih kemerdekaan."
+    }
+  ]
 }

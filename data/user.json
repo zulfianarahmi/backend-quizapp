@@ -1,10 +1,10 @@
 [
   {
-    "email": "admin@example.com",
-    "password": "admin123"
+    "email": "siswa@gmail.com",
+    "password": "siswa123"
   },
   {
-    "email": "user@gmail.com",
-    "password": "user123"
+    "email": "guru@gmail.com",
+    "password": "guru123"
   }
 ]

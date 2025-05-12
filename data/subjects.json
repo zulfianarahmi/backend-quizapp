@@ -1,6 +1,8 @@
 [
-    { "id": 1, "name": "Mathematics" },
-    { "id": 2, "name": "Science" },
-    { "id": 3, "name": "English" },
-    { "id": 4, "name": "History" }
+    { "id": 1, "name": "Mathematics", "key": "matematika" },
+    { "id": 2, "name": "English", "key": "english" },
+    { "id": 3, "name": "Agama Islam", "key": "agama" },
+    { "id": 4, "name": "Bahasa Indonesia", "key": "bahasa" },
+    { "id": 5, "name": "IPA", "key": "ipa" },
+    { "id": 6, "name": "IPS", "key": "ips" }
 ] 
